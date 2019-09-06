@@ -109,8 +109,4 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(80, () => {
-  console.log('Listening on localhost:80')
-})
-
 module.exports = app;
