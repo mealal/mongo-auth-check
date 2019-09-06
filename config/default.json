@@ -4,6 +4,9 @@
         "uri": "mongodb://%s:%s@localhost:27017,localhost:27018,localhost:27019/?authMechanism=SCRAM-SHA-1&authSource=admin&maxPoolSize=1&replicaSet=replset",
         "db": "test",
         "collection" : "test"
+      },
+      "WebServer" : {
+        "port": 8080
       }
     }
   }
