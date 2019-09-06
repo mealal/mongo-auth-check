@@ -1,0 +1,17 @@
+extends layout
+
+block variables
+  - var title = "Dashboard"
+
+block content
+  h1.text-center Dashboard
+
+  h4 Logged user: #{username}
+  table(style='width:100%', border='1')
+    tr
+      th Database
+      th Role
+    each n in roles
+      tr
+        td #{n.db}
+        td #{n.role}
