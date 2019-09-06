@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1.text-center Operation result
+
+  h4 Logged user: #{user}
+  h4 Test operation: #{operation}
+  h4 Result:
+  div.container(style="background:Gainsboro")
+    p #{result}
+  if note
+    p2-text #{note}
+  br
+  br
+  a.text-blue(href="/dashboard") Back
