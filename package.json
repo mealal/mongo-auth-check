@@ -7,7 +7,7 @@
     "dev": "nodemon --ignore sessions/ ./bin/www"
   },
   "dependencies": {
-    "config": "^3.2.2",
+    "config": "^3.3.8",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "^2.6.9",
